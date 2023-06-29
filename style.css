@@ -1,0 +1,52 @@
+body {
+    background-color:aquamarine;
+    color:darkgreen;
+}
+#santa {
+    width: 100px;
+    
+}
+img{
+    
+    float: right;
+    margin: 5px 900px 10px 10px;
+
+}
+
+#login {
+    margin: 5px;
+}
+#password {
+    margin: 5px;
+}
+#fname {
+    margin: 5px;
+}
+#lname {
+margin: 5px;
+}
+#boy {
+    margin: 10px;
+}
+#girl{
+    margin: 10px;
+}
+#birthday {
+    margin: 10px;
+
+}
+#city{
+    margin: 10px;
+}
+#toys{
+    margin: 10px;
+}
+#color{
+    margin: 10px;
+}
+#yes-no {
+    margin: 10px;
+}
+#button{
+    margin: 10px;
+}
