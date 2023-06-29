@@ -16,7 +16,7 @@
     <h1>Письмо Санте</h1>
     Дорогой друг, не стесняйся и расскажи Санте о том , кто ты и о том ,что ты хочешь получить на Рождество?
     <div>
-        <form action="./greetings.html" method="post" id="singUp-form">
+        <form action="./greetings.html" method="get" id="singUp-form">
             <img id="santa" src="./picture/Download.jpg" alt="Santa">
             <div>
                
@@ -48,9 +48,9 @@
             <div>
             Пол:
             
-                <input id="boy" type="radio" name="boy" value="Мальчик" >
+                <input id="boy" type="radio" name="radio1" value="Мальчик" >
                 <label for="boy">Мальчик</label>
-                <input id="girl" type="radio" name="girl" value="Девочка" >
+                <input id="girl" type="radio" name="radio1" value="Девочка" >
                 <label for="girl">Девочка</label>
             </div>
             <div>
@@ -86,7 +86,7 @@
                 <input type="color" id="doll" name="color" value="#f5f9f9">
                 <label for="hair">Платье</label>
             </div>
-            <div>
+            <div id="color">
                 <label for="car">Для машинки:</label>
                 <input  type="color" id="cabin" name="color" value="#eb0f0f">
                 <label for="cabin">Кабина</label>    
@@ -97,9 +97,9 @@
             
                 <label>Ты был хорошим ребёнком?</label>
                 <div>
-                <input id="yes-no" type="radio" id="yes" value="Да">
+                <input id="yes-no" type="radio" id="yes" name="radio" value="Да">
                 <label for="yes">Да</label>
-            <input type="radio" id="no" value="Нет">
+            <input type="radio" id="no" name="radio" value="Нет">
             <label for="no">Нет</label>
         </div>
        
